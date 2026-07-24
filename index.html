@@ -178,15 +178,41 @@
             .widget-card {
                 top: 52px; left: 8px; right: 8px;
                 width: auto;
-                padding: 10px 12px;
+                padding: 8px 12px;
                 background: rgba(15, 23, 42, 0.9);
             }
             .status-tag { font-size: 0.65rem; margin-bottom: 2px; }
-            .insight-text { font-size: 0.75rem; line-height: 1.25; }
+            .insight-text { font-size: 0.75rem; line-height: 1.2; }
+
+            /* На смартфонах скрываем список сетей, а ЛЕГЕНДУ переносим под карточку события */
+            .right-analytics-panel > div:first-child,
+            .panel-divider,
+            .panel-section-title {
+                display: none !important;
+            }
 
             .right-analytics-panel {
-                display: none; /* Скрываем панель аналитики на мобильных для экономии места */
+                display: flex !important;
+                position: absolute;
+                top: 132px; left: 8px; right: 8px;
+                width: auto;
+                max-height: unset;
+                padding: 8px 12px;
+                background: rgba(15, 23, 42, 0.88);
+                border-radius: 10px;
+                border: 1px solid rgba(56, 189, 248, 0.2);
             }
+
+            .legend-grid {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 4px 10px;
+                font-size: 0.62rem;
+            }
+
+            .legend-row { gap: 4px; }
+            .dot { width: 7px; height: 7px; }
 
             .timeline-bar {
                 bottom: 12px; left: 50%;
@@ -245,11 +271,11 @@
             <div class="legend-row"><div class="dot" style="background:#ef4444; color:#ef4444;"></div> АЗС закрыта</div>
             <div class="legend-row"><div class="dot" style="background:#ec4899; color:#ec4899;"></div> Ограничение / Лимит</div>
             <div class="legend-row"><div class="dot" style="background:#facc15; color:#facc15;"></div> Нет бензина</div>
-            <div class="legend-row"><div class="dot" style="background:#f97316; color:#f97316;"></div> Проблемы с качеством</div>
-            <div class="legend-row"><div class="dot" style="background:#c084fc; color:#c084fc;"></div> Высокие цены</div>
-            <div class="legend-row"><div class="dot" style="background:#06b6d4; color:#06b6d4;"></div> Очереди / Заторы</div>
-            <div class="legend-row"><div class="dot" style="background:#64748b; color:#64748b;"></div> Прочие жалобы</div>
-            <div class="legend-row"><div class="dot" style="background:#10b981; color:#10b981;"></div> Штиль / Нет проблем</div>
+            <div class="legend-row"><div class="dot" style="background:#f97316; color:#f97316;"></div> Качество</div>
+            <div class="legend-row"><div class="dot" style="background:#c084fc; color:#c084fc;"></div> Цены</div>
+            <div class="legend-row"><div class="dot" style="background:#06b6d4; color:#06b6d4;"></div> Очереди</div>
+            <div class="legend-row"><div class="dot" style="background:#64748b; color:#64748b;"></div> Прочее</div>
+            <div class="legend-row"><div class="dot" style="background:#10b981; color:#10b981;"></div> Штиль</div>
         </div>
     </div>
 </div>
