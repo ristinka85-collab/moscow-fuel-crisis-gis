@@ -1,0 +1,14 @@
+# Виртуальные окружения Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Зависимости Node.js (если есть)
+node_modules/
+
+# Локальные настройки и ключи
+*.env
+.DS_Store
+Thumbs.db

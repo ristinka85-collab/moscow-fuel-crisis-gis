@@ -1,0 +1,674 @@
+{
+  "Газпромнефть": {
+    "step_0": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 7,
+      "total_issues": 7
+    },
+    "step_10": {
+      "limits": 2,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 2,
+      "bad_fuel": 1,
+      "queue": 3,
+      "other": 54,
+      "total_issues": 63
+    },
+    "step_20": {
+      "limits": 2,
+      "closed": 2,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 1,
+      "queue": 2,
+      "other": 56,
+      "total_issues": 63
+    },
+    "step_30": {
+      "limits": 4,
+      "closed": 3,
+      "no_fuel": 0,
+      "price": 4,
+      "bad_fuel": 0,
+      "queue": 3,
+      "other": 57,
+      "total_issues": 69
+    },
+    "step_40": {
+      "limits": 4,
+      "closed": 2,
+      "no_fuel": 1,
+      "price": 1,
+      "bad_fuel": 2,
+      "queue": 1,
+      "other": 45,
+      "total_issues": 56
+    },
+    "step_50": {
+      "limits": 3,
+      "closed": 3,
+      "no_fuel": 1,
+      "price": 5,
+      "bad_fuel": 0,
+      "queue": 3,
+      "other": 66,
+      "total_issues": 81
+    },
+    "step_60": {
+      "limits": 41,
+      "closed": 139,
+      "no_fuel": 60,
+      "price": 12,
+      "bad_fuel": 3,
+      "queue": 32,
+      "other": 445,
+      "total_issues": 718
+    },
+    "step_70": {
+      "limits": 60,
+      "closed": 80,
+      "no_fuel": 25,
+      "price": 5,
+      "bad_fuel": 0,
+      "queue": 79,
+      "other": 263,
+      "total_issues": 487
+    },
+    "step_80": {
+      "limits": 59,
+      "closed": 9,
+      "no_fuel": 8,
+      "price": 5,
+      "bad_fuel": 1,
+      "queue": 63,
+      "other": 155,
+      "total_issues": 276
+    },
+    "step_90": {
+      "limits": 21,
+      "closed": 4,
+      "no_fuel": 3,
+      "price": 4,
+      "bad_fuel": 2,
+      "queue": 18,
+      "other": 135,
+      "total_issues": 181
+    },
+    "step_100": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 0,
+      "total_issues": 0
+    }
+  },
+  "Teboil": {
+    "step_0": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 1,
+      "queue": 0,
+      "other": 17,
+      "total_issues": 18
+    },
+    "step_10": {
+      "limits": 1,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 1,
+      "queue": 2,
+      "other": 40,
+      "total_issues": 45
+    },
+    "step_20": {
+      "limits": 1,
+      "closed": 3,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 4,
+      "other": 67,
+      "total_issues": 74
+    },
+    "step_30": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 1,
+      "queue": 1,
+      "other": 78,
+      "total_issues": 81
+    },
+    "step_40": {
+      "limits": 2,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 2,
+      "queue": 0,
+      "other": 61,
+      "total_issues": 67
+    },
+    "step_50": {
+      "limits": 2,
+      "closed": 2,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 0,
+      "queue": 5,
+      "other": 95,
+      "total_issues": 105
+    },
+    "step_60": {
+      "limits": 41,
+      "closed": 26,
+      "no_fuel": 17,
+      "price": 8,
+      "bad_fuel": 1,
+      "queue": 19,
+      "other": 230,
+      "total_issues": 332
+    },
+    "step_70": {
+      "limits": 116,
+      "closed": 45,
+      "no_fuel": 17,
+      "price": 8,
+      "bad_fuel": 2,
+      "queue": 106,
+      "other": 243,
+      "total_issues": 493
+    },
+    "step_80": {
+      "limits": 22,
+      "closed": 7,
+      "no_fuel": 6,
+      "price": 10,
+      "bad_fuel": 3,
+      "queue": 23,
+      "other": 135,
+      "total_issues": 197
+    },
+    "step_90": {
+      "limits": 12,
+      "closed": 4,
+      "no_fuel": 1,
+      "price": 7,
+      "bad_fuel": 2,
+      "queue": 5,
+      "other": 78,
+      "total_issues": 105
+    },
+    "step_100": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 0,
+      "total_issues": 0
+    }
+  },
+  "Роснефть": {
+    "step_0": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 1,
+      "other": 17,
+      "total_issues": 18
+    },
+    "step_10": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 5,
+      "other": 120,
+      "total_issues": 125
+    },
+    "step_20": {
+      "limits": 3,
+      "closed": 2,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 3,
+      "queue": 14,
+      "other": 149,
+      "total_issues": 171
+    },
+    "step_30": {
+      "limits": 12,
+      "closed": 6,
+      "no_fuel": 1,
+      "price": 2,
+      "bad_fuel": 0,
+      "queue": 10,
+      "other": 184,
+      "total_issues": 214
+    },
+    "step_40": {
+      "limits": 49,
+      "closed": 10,
+      "no_fuel": 1,
+      "price": 4,
+      "bad_fuel": 3,
+      "queue": 13,
+      "other": 251,
+      "total_issues": 325
+    },
+    "step_50": {
+      "limits": 44,
+      "closed": 7,
+      "no_fuel": 1,
+      "price": 4,
+      "bad_fuel": 0,
+      "queue": 11,
+      "other": 209,
+      "total_issues": 274
+    },
+    "step_60": {
+      "limits": 80,
+      "closed": 82,
+      "no_fuel": 26,
+      "price": 15,
+      "bad_fuel": 4,
+      "queue": 99,
+      "other": 491,
+      "total_issues": 770
+    },
+    "step_70": {
+      "limits": 242,
+      "closed": 117,
+      "no_fuel": 41,
+      "price": 14,
+      "bad_fuel": 5,
+      "queue": 597,
+      "other": 820,
+      "total_issues": 1663
+    },
+    "step_80": {
+      "limits": 124,
+      "closed": 55,
+      "no_fuel": 13,
+      "price": 10,
+      "bad_fuel": 6,
+      "queue": 229,
+      "other": 524,
+      "total_issues": 907
+    },
+    "step_90": {
+      "limits": 55,
+      "closed": 25,
+      "no_fuel": 2,
+      "price": 5,
+      "bad_fuel": 3,
+      "queue": 77,
+      "other": 327,
+      "total_issues": 475
+    },
+    "step_100": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 0,
+      "total_issues": 0
+    }
+  },
+  "Татнефть": {
+    "step_0": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 6,
+      "total_issues": 6
+    },
+    "step_10": {
+      "limits": 2,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 1,
+      "other": 37,
+      "total_issues": 40
+    },
+    "step_20": {
+      "limits": 2,
+      "closed": 2,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 1,
+      "other": 47,
+      "total_issues": 52
+    },
+    "step_30": {
+      "limits": 2,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 1,
+      "queue": 0,
+      "other": 52,
+      "total_issues": 57
+    },
+    "step_40": {
+      "limits": 4,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 1,
+      "queue": 2,
+      "other": 52,
+      "total_issues": 60
+    },
+    "step_50": {
+      "limits": 33,
+      "closed": 7,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 0,
+      "queue": 6,
+      "other": 101,
+      "total_issues": 145
+    },
+    "step_60": {
+      "limits": 20,
+      "closed": 16,
+      "no_fuel": 13,
+      "price": 6,
+      "bad_fuel": 0,
+      "queue": 11,
+      "other": 122,
+      "total_issues": 181
+    },
+    "step_70": {
+      "limits": 26,
+      "closed": 31,
+      "no_fuel": 16,
+      "price": 8,
+      "bad_fuel": 2,
+      "queue": 35,
+      "other": 201,
+      "total_issues": 309
+    },
+    "step_80": {
+      "limits": 39,
+      "closed": 4,
+      "no_fuel": 5,
+      "price": 3,
+      "bad_fuel": 2,
+      "queue": 30,
+      "other": 100,
+      "total_issues": 174
+    },
+    "step_90": {
+      "limits": 13,
+      "closed": 4,
+      "no_fuel": 1,
+      "price": 1,
+      "bad_fuel": 0,
+      "queue": 7,
+      "other": 81,
+      "total_issues": 104
+    },
+    "step_100": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 0,
+      "total_issues": 0
+    }
+  },
+  "Лукойл": {
+    "step_0": {
+      "limits": 1,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 1,
+      "other": 15,
+      "total_issues": 17
+    },
+    "step_10": {
+      "limits": 1,
+      "closed": 4,
+      "no_fuel": 0,
+      "price": 3,
+      "bad_fuel": 0,
+      "queue": 5,
+      "other": 101,
+      "total_issues": 114
+    },
+    "step_20": {
+      "limits": 2,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 2,
+      "bad_fuel": 0,
+      "queue": 4,
+      "other": 91,
+      "total_issues": 100
+    },
+    "step_30": {
+      "limits": 6,
+      "closed": 4,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 1,
+      "queue": 7,
+      "other": 97,
+      "total_issues": 115
+    },
+    "step_40": {
+      "limits": 7,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 3,
+      "bad_fuel": 0,
+      "queue": 5,
+      "other": 118,
+      "total_issues": 134
+    },
+    "step_50": {
+      "limits": 5,
+      "closed": 7,
+      "no_fuel": 1,
+      "price": 2,
+      "bad_fuel": 0,
+      "queue": 7,
+      "other": 135,
+      "total_issues": 157
+    },
+    "step_60": {
+      "limits": 87,
+      "closed": 124,
+      "no_fuel": 23,
+      "price": 9,
+      "bad_fuel": 2,
+      "queue": 72,
+      "other": 442,
+      "total_issues": 733
+    },
+    "step_70": {
+      "limits": 272,
+      "closed": 158,
+      "no_fuel": 36,
+      "price": 10,
+      "bad_fuel": 4,
+      "queue": 314,
+      "other": 631,
+      "total_issues": 1281
+    },
+    "step_80": {
+      "limits": 80,
+      "closed": 35,
+      "no_fuel": 12,
+      "price": 4,
+      "bad_fuel": 6,
+      "queue": 92,
+      "other": 335,
+      "total_issues": 524
+    },
+    "step_90": {
+      "limits": 32,
+      "closed": 11,
+      "no_fuel": 0,
+      "price": 3,
+      "bad_fuel": 2,
+      "queue": 26,
+      "other": 223,
+      "total_issues": 291
+    },
+    "step_100": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 1,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 0,
+      "total_issues": 1
+    }
+  },
+  "Нефтьмагистраль": {
+    "step_0": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 7,
+      "total_issues": 7
+    },
+    "step_10": {
+      "limits": 3,
+      "closed": 1,
+      "no_fuel": 0,
+      "price": 2,
+      "bad_fuel": 0,
+      "queue": 2,
+      "other": 51,
+      "total_issues": 59
+    },
+    "step_20": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 4,
+      "other": 48,
+      "total_issues": 52
+    },
+    "step_30": {
+      "limits": 3,
+      "closed": 0,
+      "no_fuel": 2,
+      "price": 4,
+      "bad_fuel": 0,
+      "queue": 4,
+      "other": 87,
+      "total_issues": 100
+    },
+    "step_40": {
+      "limits": 1,
+      "closed": 1,
+      "no_fuel": 3,
+      "price": 3,
+      "bad_fuel": 1,
+      "queue": 4,
+      "other": 75,
+      "total_issues": 87
+    },
+    "step_50": {
+      "limits": 8,
+      "closed": 1,
+      "no_fuel": 2,
+      "price": 14,
+      "bad_fuel": 1,
+      "queue": 3,
+      "other": 115,
+      "total_issues": 142
+    },
+    "step_60": {
+      "limits": 73,
+      "closed": 13,
+      "no_fuel": 5,
+      "price": 104,
+      "bad_fuel": 6,
+      "queue": 13,
+      "other": 468,
+      "total_issues": 670
+    },
+    "step_70": {
+      "limits": 45,
+      "closed": 19,
+      "no_fuel": 14,
+      "price": 36,
+      "bad_fuel": 0,
+      "queue": 28,
+      "other": 277,
+      "total_issues": 401
+    },
+    "step_80": {
+      "limits": 44,
+      "closed": 3,
+      "no_fuel": 10,
+      "price": 30,
+      "bad_fuel": 2,
+      "queue": 25,
+      "other": 159,
+      "total_issues": 257
+    },
+    "step_90": {
+      "limits": 8,
+      "closed": 2,
+      "no_fuel": 1,
+      "price": 24,
+      "bad_fuel": 2,
+      "queue": 10,
+      "other": 109,
+      "total_issues": 151
+    },
+    "step_100": {
+      "limits": 0,
+      "closed": 0,
+      "no_fuel": 0,
+      "price": 0,
+      "bad_fuel": 0,
+      "queue": 0,
+      "other": 0,
+      "total_issues": 0
+    }
+  }
+}
