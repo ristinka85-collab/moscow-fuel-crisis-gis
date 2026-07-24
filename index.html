@@ -144,6 +144,75 @@
             background: rgba(0, 0, 0, 0.45) !important; padding: 8px 10px; 
             border-left: 3px solid #38bdf8 !important; border-radius: 0 8px 8px 0; 
         }
+
+        /* ==========================================
+           АДАПТИВНОСТЬ ДЛЯ ПЛАНШЕТОВ И СМАРТФОНОВ
+           ========================================== */
+
+        @media (max-width: 1024px) {
+            .timeline-bar {
+                left: 50%;
+                width: 90vw;
+                min-width: unset;
+                max-width: unset;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-header {
+                top: 8px; left: 8px; right: 8px;
+                padding: 8px 12px;
+                flex-direction: row;
+                gap: 8px;
+            }
+            .top-title {
+                font-size: 0.65rem;
+                line-height: 1.2;
+            }
+            .brand-select {
+                font-size: 0.7rem;
+                padding: 4px 6px;
+                max-width: 120px;
+            }
+
+            .widget-card {
+                top: 52px; left: 8px; right: 8px;
+                width: auto;
+                padding: 10px 12px;
+                background: rgba(15, 23, 42, 0.9);
+            }
+            .status-tag { font-size: 0.65rem; margin-bottom: 2px; }
+            .insight-text { font-size: 0.75rem; line-height: 1.25; }
+
+            .right-analytics-panel {
+                display: none; /* Скрываем панель аналитики на мобильных для экономии места */
+            }
+
+            .timeline-bar {
+                bottom: 12px; left: 50%;
+                width: calc(100vw - 16px);
+                padding: 10px 12px;
+                gap: 10px;
+                border-radius: 12px;
+            }
+            .play-btn {
+                width: 36px; height: 36px;
+                font-size: 0.85rem;
+            }
+            .timeline-header { font-size: 0.65rem; }
+            .timeline-date { font-size: 0.75rem; }
+            .sparkline-wrapper { height: 32px; }
+            .sparkline-range::-webkit-slider-thumb { height: 32px; width: 12px; }
+            .event-label { font-size: 0.55rem; top: -14px; }
+
+            .maplibregl-popup-content {
+                max-width: 220px !important;
+                padding: 10px !important;
+            }
+            .popup-brand { font-size: 0.8rem; }
+            .popup-address { font-size: 0.7rem; }
+            .popup-review-text { font-size: 0.75rem; }
+        }
     </style>
 </head>
 <body>
@@ -247,14 +316,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        // --- НАСТРОЙКА ЯРКОСТИ И ЦВЕТА ДОРОЖНОЙ СЕТИ (Светло-серый / Металлик) ---
         const roadLayers = map.getStyle().layers.filter(layer => 
             layer.type === 'line' && 
             (layer.id.includes('road') || layer.id.includes('highway') || layer.id.includes('street') || layer.id.includes('transportation'))
         );
 
         roadLayers.forEach(layer => {
-            map.setPaintProperty(layer.id, 'line-color', '#475569'); // Slate 600 / Металлик
+            map.setPaintProperty(layer.id, 'line-color', '#475569');
             map.setPaintProperty(layer.id, 'line-opacity', 0.65);
         });
 
