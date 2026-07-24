@@ -100,13 +100,14 @@
             background: #f8fafc; border: 2px solid #38bdf8; cursor: pointer; box-shadow: 0 0 12px rgba(56, 189, 248, 0.8);
         }
 
+        /* ПОДВИНУЛИ МЕТКУ НА 48% ДЛЯ ТОЧНОЙ СИНХРОНИЗАЦИИ С ЛОГИКОЙ */
         .event-marker {
-            position: absolute; top: 0; left: 53%; width: 2px; height: 100%;
+            position: absolute; top: 0; left: 48%; width: 2px; height: 100%;
             background: repeating-linear-gradient(to bottom, #ef4444, #ef4444 3px, transparent 3px, transparent 6px);
             pointer-events: none; z-index: 1;
         }
         .event-label {
-            position: absolute; top: -16px; left: 53%; transform: translateX(-50%);
+            position: absolute; top: -16px; left: 48%; transform: translateX(-50%);
             font-size: 0.65rem; font-weight: 800; color: #ef4444; text-transform: uppercase; white-space: nowrap; letter-spacing: 0.5px;
         }
 
@@ -184,7 +185,6 @@
             .status-tag { font-size: 0.65rem; margin-bottom: 2px; }
             .insight-text { font-size: 0.75rem; line-height: 1.2; }
 
-            /* На смартфонах скрываем список сетей, а ЛЕГЕНДУ переносим под карточку события */
             .right-analytics-panel > div:first-child,
             .panel-divider,
             .panel-section-title {
